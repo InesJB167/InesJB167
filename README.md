@@ -68,18 +68,13 @@ Aplicação desenvolvida em **Java** para praticar programação orientada a obj
 </p>
 
 ---
-
 ## 📫 Contato
 
 <p>
 
-<a href="mailto:inesjobino@gmail.com">
-<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white">
-</a>
-
-<a href="https://www.linkedin.com/in/in%C3%AAs-jobino-23011b302/">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
-</a>
+📧 Email: <a href="mailto:inesjobino@gmail.com">inesjobino@gmail.com</a> <br>
+💼 LinkedIn: <a href="https://www.linkedin.com/in/in%C3%AAs-jobino-23011b302/">Meu LinkedIn</a> <br>
+📞 Tel.: +244 922 985 854
 
 </p>
 
