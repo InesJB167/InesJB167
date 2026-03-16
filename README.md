@@ -61,9 +61,9 @@ Aplicação desenvolvida em **Java** para praticar programação orientada a obj
 
 <p align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=inesjd167&show_icons=true&theme=tokyonight"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=InesJB167&show_icons=true&theme=tokyonight"/>
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=inesjd167&layout=compact&theme=tokyonight"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=InesJB167&layout=compact&theme=tokyonight"/>
 
 </p>
 
