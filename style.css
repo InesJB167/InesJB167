@@ -1,0 +1,73 @@
+@charset "utf8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    height: 70px;
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+p{
+    font-size: 1.3rem;
+}
+
+button{
+    height: 70px;
+    width: 300px;
+    font-size: 1.3rem;
+    margin-top: 90px;
+}
+
+#logo{
+    font-size: 1.7rem;
+}
+
+#home{
+    display: flex;
+    gap: 10px;
+    padding: 50px;
+    border-bottom: 3px solid grey;
+}
+
+.image{
+    border-radius: 50%;
+    border: 1px solid grey;
+    width: 790px;
+    height: 460px;
+    background-image: url(/img/img2.jpg);
+    background-size: cover;
+}
+
+.space{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#sobre{
+    padding: 40px;
+    border-bottom: 3px solid grey;
+}
+
+#skills{
+    border-bottom: 3px solid grey;
+}
