@@ -1,4 +1,7 @@
 @charset "utf8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Orbitron:wght@400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
 
 *{
     margin: 0;
@@ -7,12 +10,40 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+:root{
+  --bg-main: #0D0D0D;        /* fundo principal (preto) */
+  --bg-secondary: #121212;   /* fundo leve */
+  --bg-card: #1A1A1A;        /* cards */
+
+  --primary: #1E90FF;        /* azul principal (substitui o verde) */
+  --primary-hover: #3AA0FF;  /* hover */
+
+  --accent: #00C2FF;         /* azul mais claro (detalhes) */
+
+  --text-main: #EAEAEA;      /* texto principal */
+  --text-secondary: #A0A0A0; /* texto secundário */
+
+  --border: #2A2A2A;         /* bordas suaves */
+  --font-texto: "Inter", sans-serif;
+  --font-titulo: "Orbitron", sans-serif;
+}
+
+body{
+    background-color: var(--bg-main);
+    overflow: hidden;
+}
+
 header{
     height: 70px;
-    background-color: grey;
     display: flex;
     justify-content: space-between;
     padding: 10px;
+    border-bottom: 3px solid var(--border);
+}
+
+a{
+    text-decoration: none;
+    color: var(--accent);
 }
 
 main{
@@ -20,14 +51,23 @@ main{
     flex-direction: column;
     gap: 40px;
     padding: 20px;
+    color: var(--text-main);
 }
 
 h1{
     font-size: 2.5rem;
+    background: linear-gradient(50deg, var(--accent),var(--accent), #fff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    width: 240px;
+    font-family: var(--font-titulo);
 }
 
 p{
     font-size: 1.3rem;
+    font-family: var(--font-texto);
 }
 
 button{
@@ -35,26 +75,54 @@ button{
     width: 300px;
     font-size: 1.3rem;
     margin-top: 90px;
+    background-color: var(--accent);
+    border: none;
+    border-radius: 10px;
+    color: var(--border); 
+    font-family: var(--font-texto);
 }
 
 #logo{
     font-size: 1.7rem;
+    width: auto;
+    position: relative;
+    left: 5%;
+    top: 25%;
 }
 
 #home{
     display: flex;
     gap: 10px;
     padding: 50px;
-    border-bottom: 3px solid grey;
+}
+
+.menu{
+    display: flex;
+    gap: 20px;
+    position: relative;
+    top: 40%;
+}
+
+.fundo{
+    width: 500px;
+    height: 500px;
+    background-color: var(--accent);
+    position: absolute;
+    left: 62%;
+    bottom: 25%;
+    border-radius: 50%;
+    z-index: -1;
+    filter: blur(150px);
 }
 
 .image{
     border-radius: 50%;
-    border: 1px solid grey;
+    border: 3px solid var(--accent);
     width: 790px;
-    height: 460px;
-    background-image: url(/img/img2.jpg);
+    height: 420px;
+    background-image: url("img/img2.jpg");
     background-size: cover;
+    position: relative;
 }
 
 .space{
@@ -63,11 +131,31 @@ button{
     gap: 20px;
 }
 
+.habilidades{
+    display: flex;
+    gap: 20px;
+}
+
+.card{
+    width: 300px;
+    height: 200px;
+    border: 1px solid grey;
+    padding: 20px;
+    border-radius: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card > p {
+    font-size: 1.1rem;
+}
+
 #sobre{
     padding: 40px;
-    border-bottom: 3px solid grey;
 }
 
 #skills{
-    border-bottom: 3px solid grey;
+    padding-bottom: 50px;
+    padding-left: 50px;
 }
