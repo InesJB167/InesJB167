@@ -342,3 +342,155 @@ button a:hover{
     font-family: var(--font-texto);
     color: var(--text-secondary);
 }
+
+/*versao mobile*/
+
+@media (max-width: 600px){
+    body{
+        overflow: auto;
+    }
+
+
+    main{
+        width: 100%;
+        gap: 50px;
+        padding-top: 120px;
+    }
+
+    button{
+        margin-top: 0;
+        width: 250px;
+        font-size: 1.1rem;
+    }
+
+   
+
+    .card{
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .meus-projetos{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .project-card{
+        width: 100%;
+        max-width: 400px;
+    }
+
+    header{
+        background-color: var(--bg-main);
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        height: auto;
+    }
+
+    #logo{
+        font-size: 1.2rem;
+        position: static;
+        left: auto;
+        top: auto;
+    }
+
+    .menu{
+        gap: 20px;
+        top: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    a{
+        font-size: 15px;
+    }
+
+    h1{
+        font-size: 32px;
+    }
+
+    h2{
+        font-size: 24px;
+    }
+
+    h3{
+        font-size: 20px;
+    }
+
+    p{
+        font-size: 18px;
+    }
+
+    small{
+        font-size: 12px;
+    }
+
+    #logo{
+        font-size: 1.2rem;
+    }
+
+    #home{
+        flex-direction: column;
+        padding: 0px;
+        align-items: center;
+    }
+
+    #cards-sobre{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #skills{
+        height: auto;
+    }
+
+    .menu{
+        gap: 5px;
+    }
+
+    .fundo{
+        height: 200px;
+        width: 200px;
+        left: 30%;
+        top: 70%;
+    }
+
+    .space{
+        align-items: center;
+    }
+
+    .image{
+        height: 200px;
+        width: 200px;
+    }
+
+    .habilidades{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .meus-projetos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-card{
+        width: 400px;
+    }
+
+    .project-card img{
+        width: 400px;
+        height: 200px;
+    }
+    
+}
+
+/*versao para taablets*/
+
+@media (max-width: 900px){
+
+}
