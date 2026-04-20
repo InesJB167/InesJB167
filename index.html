@@ -1,68 +1,213 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <title>Portfólio</title>
 </head>
+
 <body>
     <header>
         <h1 id="logo">CyberDev</h1>
         <div class="menu">
-            <a href="">HOME</a>
-            <a href="">SOBRE</a>
-            <a href="">SKILLS</a>
-            <a href="">PROJECTOS</a>
+            <a href="#home">HOME</a>
+            <a href="#sobre">SOBRE</a>
+            <a href="#skills">SKILLS</a>
+            <a href="#projectos">PROJECTOS</a>
         </div>
     </header>
     <main>
-        <div id="home" >
+        <div id="home">
             <div id="content" class="space">
                 <h1>Full-Stack <br> Developer</h1>
-                <p>Desenvolvedora Full-Stack em ascensão, focada na criação de aplicações responsivas e intuitivas. Apaixonada por transformar ideias em experiências digitais reais.</p>
+                <p>Desenvolvedora Full-Stack em ascensão, focada na criação de aplicações responsivas e intuitivas.
+                    Apaixonada por transformar ideias em experiências digitais reais.</p>
                 <p>Criando soluções web estruturadas, escaláveis ​​e com design limpo.</p>
-                <button>Entre em contacto</button>
+                <button><a href="https://wa.me/+244922985854" target="_blank" rel="noreferrer" title="WhatsApp">Entre em contacto</a></button>
+                
             </div>
             <div class="fundo"></div>
             <div class="image">
-                
+
             </div>
         </div>
         <div id="sobre" class="space">
             <h1>Sobre mim</h1>
-            <p>Sou Inês, uma futura desenvolvedora Full-Stack explorando o mundo do desenvolvimento web.</p>
 
-            <p>
-                Comecei essa jornada movida pela curiosidade e pelo desejo de criar algo significativo através da tecnologia.
-                Atualmente, estou focada em construir interfaces responsivas e aprimorar minhas habilidades passo a passo.
+            <p class="intro">
+                Sou Inês, uma desenvolvedora Full-Stack em formação, apaixonada por transformar ideias em experiências
+                digitais modernas e funcionais. Estou sempre aprendendo com cada projeto e buscando novas formas de
+                criar
+                soluções mais eficientes e acessíveis.
             </p>
 
-            <p>Mais do que simplesmente escrever código, vejo o desenvolvimento como uma forma de expressar ideias e resolver problemas reais.</p>
+            <div id="cards-sobre">
+
+                <div class="cardS exp">
+                    <div class="icone-titulo">
+                        <i class="fas fa-briefcase"></i>
+                        <h3>Experiência</h3>
+                    </div>
+                    <p>
+                        No estágio, participei do desenvolvimento de um fórum online completo,
+                        com interface, autenticação e funcionalidades reais. O projeto está no GitHub:
+                        <a href="https://github.com/seu-usuario/forum-online" target="_blank" rel="noreferrer">meu
+                            repositório</a>.
+                        Continuei trabalhando em equipe, trocando feedback e acompanhando o ciclo do projeto.
+                    </p>
+                </div>
+
+                <div class="cardS lang">
+                    <div class="icone-titulo">
+                        <i class="fas fa-globe"></i>
+                        <h3>Línguas</h3>
+                    </div>
+                    <p>
+                        Sou fluente em inglês e uso essa habilidade para ler documentações internacionais,
+                        entender cursos e participar bem de equipes multiculturais.
+                        Isso me ajuda a aprender mais rápido e a trabalhar com tecnologias globais.
+                    </p>
+                </div>
+
+                <div class="cardS foco">
+                    <div class="icone-titulo">
+                        <i class="fas fa-code"></i>
+                        <h3>Foco Atual</h3>
+                    </div>
+                    <p>
+                        Estou focada em criar interfaces responsivas e acessíveis, buscando um código
+                        limpo e escalável que funcione bem tanto no frontend quanto no backend.
+                        Quero entregar soluções sólidas e intuitivas para o usuário.
+                    </p>
+                </div>
+
+                <div class="cardS visao">
+                    <div class="icone-titulo">
+                        <i class="fas fa-lightbulb"></i>
+                        <h3>Visão</h3>
+                    </div>
+                    <p>
+                        Acredito que cada projeto pode tornar a tecnologia mais simples e útil
+                        para as pessoas. Quero construir produtos que inspirem confiança, facilitem o cotidiano
+                        e transformem ideias em resultados reais.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="contatos">
+                <a href="https://linkedin.com/in/ines-jobino" target="_blank" rel="noreferrer" title="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://instagram.com/inesJobino" target="_blank" rel="noreferrer" title="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://wa.me/+244922985854" target="_blank" rel="noreferrer" title="WhatsApp">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            </div>
         </div>
         <div id="skills">
             <h1>Skills</h1>
             <div class="habilidades">
                 <div class="card">
-                    <span>icon</span>
+                    <i class="fas fa-code"></i>
                     <h2>Desenvolvimento Frontend</h2>
-                    <p>React,HTML,CSS & JavaScript </p>
+                    <p>React, HTML5, CSS3, JavaScript (ES6+), Responsive Design</p>
+                    <small>Foco em interfaces modernas e acessíveis</small>
                 </div>
                 <div class="card">
-                    <span>icon</span>
+                    <i class="fas fa-server"></i>
                     <h2>Desenvolvimento Backend</h2>
-                    <p>Node JS, JavaScript, Java </p>
+                    <p>Node.js, JavaScript, Java, APIs REST, Express.js</p>
+                    <small>Construção de servidores e lógica de negócio</small>
                 </div>
                 <div class="card">
-                    <span>icon</span>
+                    <i class="fas fa-database"></i>
                     <h2>Banco de Dados</h2>
-                    <p>MySql, </p>
+                    <p>MySQL, SQL, MySQL Workbench</p>
+                    <small>Modelagem, consultas e administração de dados</small>
+                </div>
+                <div class="card">
+                    <i class="fas fa-tools"></i>
+                    <h2>Ferramentas & Controle de Versão</h2>
+                    <p>Git, GitHub, VS Code, Terminal</p>
+                    <small>Versionamento, colaboração e desenvolvimento eficiente</small>
                 </div>
             </div>
         </div>
         <div id="projectos">
-            <p>what hell i'm gonna put right here ??</p>
+            <h1>Projectos</h1>
+            <div class="meus-projetos">
+                
+                <div class="project-card loja">
+                    <img src="img/app_store.png" alt="Loja preview">
+                    <div class="content">
+                        <h2>TechStore</h2>
+                        <p class="descricao">
+                            Website de e-commerce para venda de produtos tecnológicos, com foco em usabilidade e layout moderno.
+                            <a href="https://github.com/InesJB167/DevClub-Store-" title="Ver no GitHub"><i class="fab fa-github"></i></a></p>
+                        <p class="contribuicao">
+                            <ul>
+                                <li>Criação do design da interface e organização de categorias de produto.</li>
+                                <li>Implementação de responsividade para desktop e mobile.</li>
+                                <li>Otimização da experiência do usuário com navegação clara e fluxo de compra intuitivo.</li>
+                            </ul>
+                        </p>
+                        <span class="tech">
+                            HTML • CSS • JavaScript
+                        </span>
+                        
+                    </div>
+                </div>
+                <div class="project-card forum">
+                    <img src="img/login_forum_small.png" alt="Forum preview">
+                    <div class="content">
+                        <h2>Fórum online</h2>
+                        <p class="descricao">
+                            Plataforma de discussão para troca de ideias, com perfis de usuário, posts e navegação interativa.<a href="https://github.com/InesJB167/Forum-online" title="Ver no GitHub"><i class="fab fa-github"></i></a>
+                        </p>
+                        <p class="contribuicao">
+                            <ul>
+                                <li>Desenvolvimento do layout responsivo e navegação das páginas.</li>
+                                <li>Criação do banco de dados e implementação do backend .</li>
+                                <li>Integração das APIs e validação das funcionalidades de login e publicação.</li>
+                            </ul>
+                        </p>
+                        <span class="tech">
+                            HTML • CSS • JavaScript • MySQL
+                        </span>
+                        
+                    </div>
+                </div>
+                <div class="project-card hotel">
+                    <div class="banner placeholder">
+                        <i class="fas fa-hourglass-half"></i>
+                        <span>Coming soon UI</span>
+                    </div>
+                    <div class="content">
+                        <h2>Hotel Manager</h2>
+                        <p class="descricao">
+                            Sistema desktop para gestão de reservas, com foco na organização de dados e automação de processos.
+                        </p>
+                        <p class="contribuicao">
+                            <ul>
+                                <li>Desenvolvimento da lógica de reserva e cadastro de clientes.</li>
+                                <li>Modelagem da base de dados e criei regras de negócio para quartos e disponibilidade.</li>
+                                <li>Implementação de relatórios internos para facilitar a gestão do hotel.</li>
+                            </ul>
+                        </p>
+                        <span class="tech">
+                            Java • NetBeans - Projeto académico (não disponível)
+                        </span>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
 </body>
+
 </html>
