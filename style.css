@@ -5,44 +5,54 @@
 
 /* configuraçoes gerais */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-:root{
-  --bg-main: #0D0D0D;        /* fundo principal (preto) */
-  --bg-secondary: #121212;   /* fundo leve */
-  --bg-card: #1A1A1A;        /* cards */
+:root {
+    --bg-main: #0D0D0D;
+    /* fundo principal (preto) */
+    --bg-secondary: #121212;
+    /* fundo leve */
+    --bg-card: #1A1A1A;
+    /* cards */
 
-  --primary: #1E90FF;        /* azul principal (substitui o verde) */
-  --primary-hover: #3AA0FF;  /* hover */
+    --primary: #1E90FF;
+    /* azul principal (substitui o verde) */
+    --primary-hover: #3AA0FF;
+    /* hover */
 
-  --accent: #00C2FF;         /* azul mais claro (detalhes) */
+    --accent: #00C2FF;
+    /* azul mais claro (detalhes) */
 
-  --text-main: #EAEAEA;      /* texto principal */
-  --text-secondary: #A0A0A0; /* texto secundário */
+    --text-main: #EAEAEA;
+    /* texto principal */
+    --text-secondary: #A0A0A0;
+    /* texto secundário */
 
-  --border: #2A2A2A;         /* bordas suaves */
-  --font-texto: "Inter", sans-serif;
-  --font-titulo: "Orbitron", sans-serif;
+    --border: #2A2A2A;
+    /* bordas suaves */
+    --font-texto: "Inter", sans-serif;
+    --font-titulo: "Orbitron", sans-serif;
 }
 
 /*tags principais*/
 
-html{
-    scroll-padding-top: 70px;/*poe um espaço em cima pra o tema nao ficar depois do heeader*/
+html {
+    scroll-padding-top: 70px;
+    /*poe um espaço em cima pra o tema nao ficar depois do heeader*/
 }
 
-body{
+body {
     background-color: var(--bg-main);
     overflow-y: hidden;
     scroll-behavior: smooth;
 }
 
-header{
+header {
     height: 70px;
     display: flex;
     justify-content: space-between;
@@ -55,14 +65,14 @@ header{
     z-index: 1000;
 }
 
-a{
+a {
     text-decoration: none;
     color: var(--accent);
     height: 20px;
 }
 
 
-a:hover{
+a:hover {
     border-bottom: 2px solid var(--accent);
     transition: border-bottom 0.3s ease;
 }
@@ -85,7 +95,7 @@ a:hover{
     transition: color 0.3s ease;
 }
 
-main{
+main {
     display: flex;
     flex-direction: column;
     gap: 100px;
@@ -94,9 +104,9 @@ main{
     color: var(--text-main);
 }
 
-h1{
+h1 {
     font-size: 2.5rem;
-    background: linear-gradient(50deg, var(--accent),var(--accent), #fff);
+    background: linear-gradient(50deg, var(--accent), var(--accent), #fff);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -105,31 +115,31 @@ h1{
     font-family: var(--font-titulo);
 }
 
-h2{
+h2 {
     color: var(--primary-hover);
 }
 
-h3{
+h3 {
     position: relative;
     top: 10px;
     color: var(--accent);
 }
 
-p{
+p {
     font-size: 1.3rem;
     font-family: var(--font-texto);
 }
 
-i{
+i {
     font-size: 2rem;
     color: var(--accent);
 }
 
-ul{
+ul {
     list-style-position: inside;
 }
 
-button{
+button {
     height: 70px;
     width: 300px;
     font-size: 1.3rem;
@@ -143,7 +153,7 @@ button{
     box-shadow: 0px 4px 15px rgba(0, 194, 255, 0.3);
 }
 
-button:hover{
+button:hover {
     transform: translateY(-8px) scale(1.05);
     box-shadow: 0px 8px 25px rgba(0, 194, 255, 0.6);
     background-color: var(--primary-hover);
@@ -153,13 +163,13 @@ button a {
     color: var(--border);
 }
 
-button a:hover{
+button a:hover {
     border-bottom: none;
 }
 
 /* ids*/
 
-#logo{
+#logo {
     font-size: 1.7rem;
     width: auto;
     position: relative;
@@ -167,26 +177,26 @@ button a:hover{
     top: 25%;
 }
 
-#home{
+#home {
     display: flex;
     gap: 10px;
     padding: 50px;
 }
 
-#sobre{
+#sobre {
     padding: 20px;
 }
 
-#cards-sobre{
+#cards-sobre {
     display: grid;
     gap: 20px;
     grid-template-columns: 600px 600px;
-    grid-area: 
-    "exp lang",
-    "foco visao";
+    grid-area:
+        "exp lang",
+        "foco visao";
 }
 
-#skills{
+#skills {
     padding-bottom: 50px;
     padding-left: 50px;
     padding-top: 20px;
@@ -196,21 +206,21 @@ button a:hover{
     gap: 20px;
 }
 
-#projectos{
+#projectos {
     display: flex;
     flex-direction: column;
     gap: 10px;
     padding-top: 10px;
 }
 
-.menu{
+.menu {
     display: flex;
     gap: 20px;
     position: relative;
     top: 40%;
 }
 
-.fundo{
+.fundo {
     width: 500px;
     height: 500px;
     background-color: var(--accent);
@@ -222,7 +232,7 @@ button a:hover{
     filter: blur(150px);
 }
 
-.image{
+.image {
     border-radius: 50%;
     border: 3px solid var(--accent);
     width: 790px;
@@ -232,18 +242,18 @@ button a:hover{
     position: relative;
 }
 
-.space{
+.space {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.habilidades{
+.habilidades {
     display: flex;
     gap: 20px;
 }
 
-.card{
+.card {
     width: 300px;
     height: auto;
     border: 1px solid grey;
@@ -252,10 +262,10 @@ button a:hover{
     display: flex;
     flex-direction: column;
     gap: 10px;
-    background-color: var(--bg-card);  
+    background-color: var(--bg-card);
 }
 
-.cardS{
+.cardS {
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -263,12 +273,12 @@ button a:hover{
     text-align: justify;
 }
 
-.icone-titulo{
+.icone-titulo {
     display: flex;
     gap: 10px;
 }
 
-.card > p {
+.card>p {
     font-size: 1.1rem;
 }
 
@@ -279,22 +289,22 @@ button a:hover{
     font-style: italic;
 }
 
-.meus-projetos{
+.meus-projetos {
     display: grid;
     grid-template-columns: 452px 452px 400px;
-    grid-template-areas: 
-    "loja forum hotel";
+    grid-template-areas:
+        "loja forum hotel";
     gap: 12px;
 }
 
-.project-card{
+.project-card {
     border: 1px solid var(--border);
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     background-color: var(--bg-card);
 }
 
-.project-card > a{
+.project-card>a {
     font-size: 0.7rem;
 }
 
@@ -302,12 +312,12 @@ button a:hover{
     font-size: 1.2rem;
 }
 
-.project-card > img{
+.project-card>img {
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
 }
 
-.content{
+.content {
     padding-top: 10px;
     padding-left: 10px;
     padding-bottom: 2px;
@@ -318,7 +328,7 @@ button a:hover{
 }
 
 
-.banner{
+.banner {
     height: 250px;
     display: flex;
     align-items: center;
@@ -345,43 +355,41 @@ button a:hover{
 
 /*versao mobile*/
 
-@media (max-width: 600px){
-    body{
+@media (max-width: 600px) {
+    body {
         overflow: auto;
     }
 
 
-    main{
+    main {
         width: 100%;
         gap: 50px;
         padding-top: 120px;
     }
 
-    button{
+    button {
         margin-top: 0;
         width: 250px;
         font-size: 1.1rem;
     }
 
-   
-
-    .card{
+    .card {
         width: 100%;
         max-width: 300px;
     }
 
-    .meus-projetos{
+    .meus-projetos {
         display: flex;
         flex-direction: column;
         gap: 20px;
     }
 
-    .project-card{
+    .project-card {
         width: 100%;
         max-width: 400px;
     }
 
-    header{
+    header {
         background-color: var(--bg-main);
         padding: 0;
         flex-direction: column;
@@ -390,107 +398,114 @@ button a:hover{
         height: auto;
     }
 
-    #logo{
+    #logo {
         font-size: 1.2rem;
         position: static;
         left: auto;
         top: auto;
     }
 
-    .menu{
+    .menu {
         gap: 20px;
         top: auto;
         flex-wrap: wrap;
         justify-content: center;
     }
 
-    a{
+    a {
         font-size: 15px;
     }
 
-    h1{
-        font-size: 32px;
+    h1 {
+        width: auto;
     }
 
-    h2{
+    h2 {
         font-size: 24px;
     }
 
-    h3{
+    h3 {
         font-size: 20px;
     }
 
-    p{
+    p {
         font-size: 18px;
     }
 
-    small{
+    small {
         font-size: 12px;
     }
 
-    #logo{
+    #logo {
         font-size: 1.2rem;
     }
 
-    #home{
+    #home {
         flex-direction: column;
         padding: 0px;
         align-items: center;
     }
 
-    #cards-sobre{
+    #cards-sobre {
         display: flex;
         flex-direction: column;
     }
 
-    #skills{
+    #skills {
         height: auto;
+        display: flex;
+        flex-direction: column;
     }
 
-    .menu{
+    .menu {
         gap: 5px;
     }
 
-    .fundo{
+    .fundo {
         height: 200px;
         width: 200px;
         left: 30%;
         top: 70%;
     }
 
-    .space{
+    .space {
         align-items: center;
     }
 
-    .image{
-        height: 200px;
-        width: 200px;
+    .image {
+        width: 100%;
+        max-width: 250px;
+        height: 250px;
     }
 
-    .habilidades{
+    .habilidades {
         display: flex;
         flex-direction: column;
     }
 
-    .meus-projetos{
+    .meus-projetos {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .project-card{
-        width: 400px;
+    .project-card {
+        width: 100%;
+        max-width: 400px;
     }
 
-    .project-card img{
-        width: 400px;
-        height: 200px;
+    .project-card img {
+        width: 100%;
+        height: auto;
     }
-    
+
+    /*para ver quem esta quebrando o layout*/
+    *{
+        outline: 1px solid red;
+    }
+
 }
 
 /*versao para taablets*/
 
-@media (max-width: 900px){
-
-}
+@media (max-width: 900px) {}
