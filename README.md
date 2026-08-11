@@ -1,85 +1,31 @@
-<h1 align="center">Olá 👋 Eu sou Inês Jobino</h1>
+<div align="center">
 
-<p align="center">
-🎓 Estudante de Informática de Gestão <br>
-💻 Desenvolvedora em formação <br>
-📍 Angola
-</p>
+<h1>Olá 👋 Eu sou Inês Jobino</h1>
 
----
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2800&pause=900&color=00FF00&center=true&vCenter=true&width=700&lines=Full+Stack+Developer;React+%7C+Node.js+%7C+Express+%7C+MySQL;Building+Web+Applications;Turning+Ideas+Into+Digital+Solutions" />
 
-## 👩‍💻 Sobre mim
-
-Sou estudante do último ano do ensino médio no curso de **Informática de Gestão** em Luanda, Angola.  
-Tenho interesse em **desenvolvimento web e desenvolvimento de software**, e gosto de criar projetos para aprender e melhorar minhas habilidades em programação.
-
-Atualmente estou estudando e praticando tecnologias como **Java, JavaScript, React e MySQL**, além de aprender conceitos de **APIs REST e desenvolvimento de sistemas**.
-
-Tenho experiência com desenvolvimento de pequenos projetos, incluindo um **fórum online**, um **website desenvolvido por mim** e um **projeto em Java**.
+</div>
 
 ---
 
-## 🚀 Tecnologias e ferramentas
+## `> Sobre mim`
 
-<p>
+Sou **Full Stack Developer** focada no desenvolvimento de aplicações web e na construção de soluções completas, desde a interface do utilizador até ao backend, APIs e base de dados.
 
-<img src="https://skillicons.dev/icons?i=java,js,react,python,html,css,mysql,git,github" />
+Trabalho principalmente com **JavaScript, React, Node.js, Express, MySQL e Prisma**, desenvolvendo aplicações com foco em organização, funcionalidade e boas práticas.
 
-</p>
+Tenho interesse em transformar ideias e problemas reais em soluções digitais, enquanto continuo a aprofundar os meus conhecimentos em desenvolvimento de software, arquitetura de aplicações e segurança.
 
-Ferramentas que utilizo:
+## `> Habilidade & Tecnologias`
 
-- MySQL Workbench  
-- XAMPP  
-- GitHub  
-- VS Code  
-- NetBeans  
 
----
 
-## 📂 Projetos
+| Habilidades                  | Tecnologias                                                                      |
+| -----------------------------| ---------------------------------------------------------------------------------|
+| **Linguagens / Frameworks**  | <img src="https://skillicons.dev/icons?i=js,java,python,react,nodejs,express" /> |
+| **Frontend / Web**           | <img src="https://skillicons.dev/icons?i=html,css,js,react" />                   |
+| **Banco de Dados**           | <img src="https://skillicons.dev/icons?i=mysql,prisma" />                        |
+| **Ferramentas / IDEs**       | <img src="https://skillicons.dev/icons?i=git,github,vscode,netbeans" />          |
 
-🔹 **Fórum Online**  
-Sistema web onde usuários podem criar tópicos e comentar em discussões.
 
-🔹 **Website desenvolvido por mim**  
-Site desenvolvido utilizando **HTML, CSS e JavaScript**.
 
-🔹 **Projeto em Java**  
-Aplicação desenvolvida em **Java** para praticar programação orientada a objetos.
-
----
-
-## 📚 Atualmente estudando
-
-- React
-- JavaScript
-- APIs REST
-- Banco de dados MySQL
-
----
-
-## 📊 Estatísticas do GitHub
-
-<p align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=InesJB167&show_icons=true&theme=tokyonight"/>
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=InesJB167&layout=compact&theme=tokyonight"/>
-
-</p>
-
----
-## 📫 Contato
-
-<p>
-
-📧 Email: <a href="mailto:inesjobino@gmail.com">inesjobino@gmail.com</a> <br>
-💼 LinkedIn: <a href="https://www.linkedin.com/in/in%C3%AAs-jobino-23011b302/">Meu LinkedIn</a> <br>
-📞 Tel.: +244 922 985 854
-
-</p>
-
----
-
-⭐ Obrigada por visitar meu perfil!
